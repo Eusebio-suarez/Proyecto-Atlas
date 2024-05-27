@@ -1,0 +1,327 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    position: relative; 
+    width: 100%;
+    height: 450px;
+    background-image: url('../Asses/images/banner-bk.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+h1 {
+    display: flex;
+    color: white; 
+    font-size: 36px; 
+}
+
+.pheader{
+    color: #fff;
+}
+
+.getStard {
+    color: black;
+    text-decoration: none;
+    background-color: #00ffad;
+    font-size:small;
+    width: 90px;
+    padding: 8px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 200px;
+}
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+}
+
+.psection1{
+    font-size: 30px; 
+    color: #000;
+}
+
+.img-section{
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.textoContainer1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 220px;
+    width: 50%;
+}
+
+.textoContainer1 h2{
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.textoContainer1 p{
+    width: 450px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.textoContainer1 button{
+    width: 100px;
+    height: 40px;
+    border-radius: 18px;
+    border: none;
+    color: white;
+    background-color: #192440;
+}
+
+.imgContainer1 img{
+    width: 30rem;
+}
+
+.imgContainer1{
+    z-index: 2;
+    width: 50%;
+}
+
+.contenidoPoligono{
+    display: flex;
+    width: 100%;
+}
+
+.trapecio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 42rem;
+    margin-top: -200px;
+    background-color: #00ffad;
+    clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: 1;
+}
+
+.container2{
+    display: flex;
+    margin-top: 300px;
+}
+
+.containerImg2{
+    width: 50%;
+}
+
+.containerImg2 img{
+    width: 30rem;
+}
+
+.textoContainer2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.textoContainer2 h2{
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.textoContainer2 p{
+    width: 550px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.textoContainer2 button{
+    width: 100px;
+    height: 40px;
+    border-radius: 18px;
+    border: none;
+    color: white;
+    background-color: #192440;
+}
+
+.section3{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pricingt{
+    font-size: 36px;
+    margin-bottom: 50px;
+
+}
+
+.pricing{
+    display: flex;
+    flex-direction: row;
+}
+
+.number{
+    font-size: 60px;
+}
+
+.pricePremium{
+    background-color: #192440;
+    color: #fff;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+}
+
+.pricefree{
+    margin-left: 100px;
+    margin-right: 250px;
+}
+
+.priceProfecional{
+    margin-left: 250px;
+    margin-right: 100px;
+}
+
+.Getfree1{
+    text-decoration: none;
+    background-color: #ffffff;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom:15px ;
+    border-radius: 200px;
+    border: 2px solid black;
+}
+
+.Getfree2{
+    text-decoration: none;
+    background-color: #00ffad;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom:15px ;
+    border-radius: 200px;
+}
+
+.client{
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eceeef;
+    justify-content: space-around;
+}
+
+.contactUs{
+    display: flex;
+    position: relative; 
+    width: 100%;
+    height: 450px;
+    background-image: url('../Asses/images/contact-bk.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.contactus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 50%;
+}
+
+.pcontactus{
+    font-size: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 50px;
+    color: #00ffad;
+    background:transparent ;
+}
+
+.primeraLinea{
+    display: flex;
+}
+
+.primeraLinea input{
+    width: 260px;
+    margin-top: 10px ;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid #00ffad;
+    background-color: transparent;
+}
+
+.campoEmail{
+    margin-left: 50px;
+}
+
+.campoMessage input{
+    width: 575px;
+    margin-top: 10px ;
+    border-radius: 5px;
+    height: 70px;
+    border: 1px solid #00ffad;
+    background-color: transparent;
+}
+
+.buttonForm button{
+    height: 35px;
+    width: 580px;
+    border-radius: 20px;
+    background-color: #00ffad;
+    border: none;
+    color: #192440;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #192440;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+
+.fotericons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.fotericons{
+    margin-right: 100px;
+}
