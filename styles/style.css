@@ -10,7 +10,7 @@ header {
     position: relative; 
     width: 100%;
     height: 450px;
-    background-image: url('../Asses/images/banner-bk.jpg');
+    background-image: url('../Assets/images/banner-bk.jpg');
     background-size: cover; 
     background-position: center; 
 }
@@ -245,7 +245,7 @@ section{
     position: relative; 
     width: 100%;
     height: 450px;
-    background-image: url('../Asses/images/contact-bk.jpg');
+    background-image: url('../Assets/images/contact-bk.jpg');
     background-size: cover; 
     background-position: center; 
 }
